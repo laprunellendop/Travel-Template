@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    margin: 10px 0;
+}
+.top{
+    width:100%;
+    overflow:hidden;
+    background-color: white!important;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+}
+.logo{
+    padding:10px 24px;
+    float:left;
+    color: red;
+    text-decoration: none;
+    /*facultatif*/
+    width:auto;
+    border:none;
+    display:block;
+}
+.logo:hover{
+    background-color: red;
+    color: white;
+}
+.search{
+    padding:10px 24px;
+    float:right;
+    color: #757575;;
+    text-decoration: none;
+    /*facultatif*/
+    width:auto;
+    border:none;
+    display:block;
+}
+.search:hover{
+    background-color: red;
+    color: white;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-image{
+    max-width: 100%;
+    height: auto;
+}
+.relative{
+    position: relative;
+}
+.displaymiddle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+   
+    
+}
+.title-menu{
+    background-color: black; 
+    color:white;
+    padding: 8px 16px;
+}
+.title-menu a{
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+}
+.form-reservation{
+    background-color: white;
+    padding: 16px 8px;
+}
+.form-reservation input[type=text]{
+    width: 100%;
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 12px 8px;
+}
+.form-reservation input[type=submit]{
+    border: none;
+    text-decoration: none;
+    background-color: #616161;
+    color: white;
+    padding:12px 16px;
+    margin: 16px 8px;
+    font: inherit;
+}
+.row{
+    margin: 0 -16px; padding: 0 8px;
+    padding-bottom: 16px;
+    
+}
+.col50{
+    float:left;
+    width: 50%;
+    padding: 0 8px;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:16px 8px;
+    color: white;
+}
+.container-images{
+ padding: 8px;
+}
+.container-trip{
+    padding: 8px ;
+}
+.description-trip{
+    background-color: white;
+    padding: 8px 12px;
+}
+.description-trip p{
+    padding: 8px 0;
+}
+.description-trip button{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    font: inherit;
+    padding: 8px 16px;
+    margin: 8px 0;
+}
+.description-trip button:hover{
+    background-color: #ccc;
+}
+img{
+    vertical-align: middle;
+}
+.container-images::after,.row::after,.container-trip::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container-offers{
+    background-color: black;
+    color: white;
+    margin: 24px 16px;
+    opacity: 0.6;
+    padding: 8px 16px;
+}
+.container-offers:hover{
+    opacity: 1;
+}
+.container-offers h1,h4{
+    padding: 8px 0;
+
+}
+.container-offers input[type=email]{
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+}
+.container-offers button{
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font: inherit;
+}
+.contact{
+    padding: 0 16px;
+}
+.contact h1{
+    padding: 8px 0;
+}
+.contact i{
+    padding: 4px 0;
+}
+.contact input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding: 16px 8px;
+    margin-bottom: 8px;
+}
+.contact input[type=submit]{
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 20px;
+    font: inherit;
+    background-color: black;
+    color: white;
+    margin: 8px 0;
+}
+.footer{
+    text-align: center;
+    padding: 16px;
+    color: #616161;
+}
+.footer p{
+    padding-bottom: 16px;
+}
+.footer a{
+    color: #616161;
+}
+.footer a:hover{
+    color: green;
+}
+@media screen and (max-width:601px) {
+    header{
+        display:none;
+    }
+    .col50{
+        width: 100%; padding-bottom:16px;
+    }
+    .row{
+        padding-bottom: 0;
+    }
+    
+}
+
+
